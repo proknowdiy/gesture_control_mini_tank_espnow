@@ -2,8 +2,8 @@
 #include <WiFi.h>
 
 //These are needed for MPU
-//Add I2Cdev and MPU6050 Liberary, watch this video: https://youtu.be/C38M3hR6-94?si=ztcs2KpqGifKz--P&t=163
-//Download liberary: https://github.com/jrowberg/i2cdevlib
+//Add I2Cdev and MPU6050 Library, watch this video: https://youtu.be/C38M3hR6-94?si=ztcs2KpqGifKz--P&t=163
+//Download library: https://github.com/jrowberg/i2cdevlib
 #include "I2Cdev.h"             
 #include "MPU6050_6Axis_MotionApps20.h"
 #if I2CDEV_IMPLEMENTATION == I2CDEV_ARDUINO_WIRE
